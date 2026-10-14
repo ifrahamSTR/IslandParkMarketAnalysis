@@ -1,0 +1,26 @@
+{
+ "3519 Browning Rd, Island Park, ID 83429": {
+  "lat": 44.47325,
+  "lng": -111.453702,
+  "matched": "3519 BROWING RD, ISLAND PARK, ID, 83429",
+  "nMatches": 1
+ },
+ "3739 Homestead Dr, Island Park, ID 83429": {
+  "lat": 44.412584,
+  "lng": -111.384509,
+  "matched": "3739 HOMESTEAD DR, ISLAND PARK, ID, 83429",
+  "nMatches": 1
+ },
+ "4066 Yale Creek Rd, Island Park, ID 83429": {
+  "lat": 44.470017,
+  "lng": -111.452499,
+  "matched": "4066 YALE CREEK RD, ISLAND PARK, ID, 83429",
+  "nMatches": 1
+ },
+ "4143 Huckleberry Ln 1, Island Park, ID 83429": {
+  "lat": 44.520968,
+  "lng": -111.330704,
+  "matched": "4143 HUCKLEBERRY LOOP, ISLAND PARK, ID, 83429",
+  "nMatches": 1
+ }
+}
