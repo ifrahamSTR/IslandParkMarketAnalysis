@@ -219,7 +219,7 @@ function DEST_AREAS() {
       zones: [{ lat: 44.650, lng: -111.340, r: 3500, tip: "Henrys Lake", tipShort: "Henrys Lake", dir: "top" }],
       why: "Homes around Henrys Lake and its state park, at the north end of the corridor and the shortest drive to West Yellowstone and the park's West Entrance.",
       season: "Summer Yellowstone trips and lake fishing; snowmobiling in winter.",
-      matters: "The clear leader (" + fmtX(h.idx) + " typical for its sizes, median " + fmtK(h.median) + "), ahead at every size, with " + h.top10N + " of the market's " + _top() + " Top 10% listings and the highest nightly rates.",
+      matters: "The clear leader (" + fmtX(h.idx) + " typical for its sizes, median " + fmtK(h.medianRev) + "), ahead at every size, with " + h.top10N + " of the market's " + _top() + " Top 10% listings and the highest nightly rates.",
     },
     {
       id: "north", name: NORTH, kind: "corridor", tags: ["About typical", "Small area"],
