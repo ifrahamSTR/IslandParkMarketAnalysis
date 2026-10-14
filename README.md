@@ -54,3 +54,5 @@ Findings: size sets the rate (20 of the 24 Top 10% are 4BR+). Henrys Lake is 1.6
 - **Sheet checks:**
   - Every sheet's amortization block runs a few dollars ahead in its Total Paydown column, as Galveston's do. It is reported, not changed.
   - Files 110, 111 and 112 all have a $269,000 purchase price, though they are different houses. Check that this wasn't copied over.
+
+**Standard setup lines (2026-10-14):** every new underwriting sheet made on the page carries the five lines every "UW'ing" sheet has, in their usual rows: Furniture / Decor / Essentials (row 5), Misc, CoHost Essentials, Design/Project Management and Install/Staging/Warehousing (rows 16–19). A line that is missing or has no amount gets Galveston file 101's amount ($50,000 / $25,000 / $3,500 / $25,000 / $18,250); a line the starting sheet already prices keeps its own amount. Rule: `UWRules.withStandardSetup` in `js/underwritten/uw-rules.js`, applied when a listing is created and whenever a new-listing sheet is shown or downloaded.
